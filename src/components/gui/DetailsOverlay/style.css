@@ -1,0 +1,20 @@
+
+.side-bar{
+    flex-grow: 1;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+    padding: 5px;
+    pointer-events: none !important;
+
+    overflow: hidden;
+}
+.side-bar.expanded{
+    width: 100%;
+    flex-direction: row;
+    
+}
+.side-bar.collapsed{
+    width: 30%;
+}
